@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-navy: #10243A;
+    --color-ivory: #F7F3EA;
+    --color-gold: #B99A5B;
+    --color-text-primary: #202936;
+    --color-text-secondary: #596579;
+    --color-border-subtle: #E5E0D7;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #F7F3EA;
+    color: #202936;
+  }
+
+  /* Accessible focus indicators */
+  :focus-visible {
+    outline: 2px solid #B99A5B;
+    outline-offset: 2px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
