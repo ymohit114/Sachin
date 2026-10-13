@@ -24,19 +24,19 @@ export default async function HomePage() {
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2">
                 <span className="px-2.5 py-1 bg-navy-light text-gold text-xs font-semibold uppercase tracking-wider rounded border border-navy-light">
-                  Gurugram &bull; Delhi NCR
+                  Distt Court Gurugram &bull; Sub-Divisional Court Sohna
                 </span>
                 <VerifiedBadge isVerified={profile.isFullNameVerified} />
               </div>
 
               <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-ivory leading-tight">
-                Chamber of Advocate Sachin
+                Chamber of Advocate Vipin Kumar
               </h1>
 
               <p className="text-base sm:text-lg text-ivory/80 leading-relaxed font-normal max-w-2xl">
-                Independent legal practice offering professional representation in civil disputes, commercial
-                litigation, Haryana Real Estate Regulatory Authority (HARERA) proceedings, and criminal matters before
-                the District Courts in Gurugram, Haryana, and judicial forums across the Delhi NCR region.
+                Independent legal practice offering professional representation in civil litigation, property disputes,
+                revenue matters, and criminal defense before the District &amp; Sessions Courts in Gurugram, the
+                Sub-Divisional Courts in Sohna, Haryana, and judicial forums across the Delhi NCR region.
               </p>
 
               {/* Verified Enrolment Strip */}
@@ -76,7 +76,7 @@ export default async function HomePage() {
               <div className="relative w-full max-w-sm rounded-lg overflow-hidden border-2 border-border-dark bg-navy-900 shadow-2xl">
                 <Image
                   src="/images/placeholder-portrait.svg"
-                  alt="Formal portrait placeholder of Advocate Sachin"
+                  alt="Formal portrait placeholder of Advocate Vipin Kumar"
                   width={400}
                   height={500}
                   className="w-full h-auto object-cover"

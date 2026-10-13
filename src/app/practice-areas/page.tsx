@@ -7,7 +7,7 @@ import { ArrowRight, BookOpen, Scale, FileText } from "lucide-react";
 export const metadata = {
   title: "Areas of Legal Practice",
   description:
-    "Factual overview of legal practice areas handled by Advocate Sachin in Gurugram, Haryana, and Delhi NCR judicial forums.",
+    "Factual overview of legal practice areas handled by Advocate Vipin Kumar before District Court Gurugram and Sub-Divisional Court Sohna.",
 };
 
 export default function PracticeAreasPage() {
@@ -23,7 +23,7 @@ export default function PracticeAreasPage() {
         </h1>
         <p className="text-sm text-text-secondary max-w-3xl leading-relaxed">
           The following entries outline the legal subjects and statutory frameworks handled before the
-          District &amp; Sessions Courts in Gurugram, the Punjab &amp; Haryana High Court, and relevant appellate tribunals.
+          District &amp; Sessions Courts in Gurugram, the Sub-Divisional Courts in Sohna, and relevant appellate tribunals.
           In compliance with Bar Council of India standards, descriptions are purely factual and do not constitute
           claims of superiority, guaranteed outcomes, or specialised ranking.
         </p>

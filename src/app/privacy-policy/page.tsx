@@ -5,7 +5,7 @@ import { ShieldCheck, Lock, Clock, Database, EyeOff } from "lucide-react";
 export const metadata = {
   title: "Privacy Policy & Data Handling",
   description:
-    "Data privacy policy, retention controls, and handling standards for the independent chamber website of Advocate Sachin.",
+    "Data privacy policy, retention controls, and handling standards for the independent chamber website of Advocate Vipin Kumar.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -32,7 +32,7 @@ export default function PrivacyPolicyPage() {
             <span>1. General Statement of Privacy</span>
           </h2>
           <p>
-            This website is maintained by the Chamber of Advocate Sachin in Gurugram, Haryana.
+            This website is maintained by the Chamber of Advocate Vipin Kumar in Gurugram and Sohna, Haryana.
             We are committed to operating in accordance with principles of data minimisation and confidentiality.
             This policy outlines how personal details collected through optional communication channels are processed, stored, and retained.
           </p>
@@ -112,7 +112,7 @@ export default function PrivacyPolicyPage() {
             stored contact information by contacting the chamber administrator at:
           </p>
           <p className="font-mono text-xs bg-ivory p-3 rounded border border-border-subtle text-navy">
-            Email: contact@advocatechamber.placeholder (Subject: Data Privacy Redressal)
+            Email: advvipinkhatana11@gmail.com (Subject: Data Privacy Redressal)
           </p>
         </section>
       </div>
@@ -122,7 +122,7 @@ export default function PrivacyPolicyPage() {
         <p className="font-semibold text-navy">Policy Status Notice:</p>
         <p>
           This privacy policy document serves as a compliant template and remains subject to final review and statutory alignment
-          by Advocate Sachin prior to public deployment.
+          by Advocate Vipin Kumar prior to public deployment.
         </p>
       </Card>
     </div>

@@ -13,18 +13,18 @@ export function Footer() {
           <div className="md:col-span-2 space-y-4">
             <div className="flex flex-col">
               <span className="font-serif text-xl font-bold tracking-wide text-ivory">
-                CHAMBER OF ADVOCATE SACHIN
+                CHAMBER OF ADVOCATE VIPIN KUMAR
               </span>
               <span className="text-xs uppercase tracking-widest text-gold font-medium mt-1">
-                Gurugram, Haryana &bull; Delhi NCR
+                District Court Gurugram &bull; Sub-Divisional Court Sohna
               </span>
             </div>
             <p className="text-xs leading-relaxed text-text-muted max-w-md">
-              Independent advocate handling civil disputes, commercial litigation, Haryana RERA proceedings,
-              and criminal defense across Gurugram District Courts, Punjab &amp; Haryana High Court, and Delhi NCR tribunals.
+              Independent legal practice before District &amp; Sessions Courts Gurugram and Sub-Divisional Courts Sohna,
+              handling civil litigation, property disputes, revenue matters, and criminal defense in strict adherence to Bar Council of India standards.
             </p>
             <div className="text-[11px] text-text-muted/80">
-              <span>Jurisdiction: District &amp; Sessions Court Gurugram | High Court of Punjab &amp; Haryana</span>
+              <span>Chamber No. 22 Ground Floor Sohna &bull; Seat in Hall No. 8 Gurugram</span>
             </div>
           </div>
 
@@ -98,7 +98,7 @@ export function Footer() {
 
         {/* Copyright & Technical attribution */}
         <div className="pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-text-muted gap-4">
-          <p>&copy; {currentYear} Advocate Sachin. All rights reserved. For informational purposes only.</p>
+          <p>&copy; {currentYear} Advocate Vipin Kumar. All rights reserved. For informational purposes only.</p>
           <p className="text-[11px]">Strict compliance with Advocates Act, 1961.</p>
         </div>
       </div>

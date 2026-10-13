@@ -53,7 +53,7 @@ export default function AdminLoginPage() {
             Chamber Administration
           </h1>
           <p className="text-xs text-text-secondary">
-            Restricted access portal for Advocate Sachin and authorised chamber personnel.
+            Restricted access portal for Advocate Vipin Kumar and authorised chamber personnel.
           </p>
         </div>
 

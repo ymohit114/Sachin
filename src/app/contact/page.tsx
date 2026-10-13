@@ -7,7 +7,7 @@ import { MapPin, Mail, Clock, Phone, Building, Scale, AlertCircle } from "lucide
 export const metadata = {
   title: "Office & Contact Details",
   description:
-    "Verified chamber office and contact information for Advocate Sachin in Gurugram, Haryana, and Delhi NCR.",
+    "Verified chamber office and contact information for Advocate Vipin Kumar in Gurugram and Sohna, Haryana.",
 };
 
 export default async function ContactPage() {
@@ -26,7 +26,7 @@ export default async function ContactPage() {
           Office &amp; Contact Details
         </h1>
         <p className="text-sm text-text-secondary max-w-3xl leading-relaxed">
-          The following details represent verified administrative channels for Advocate Sachin.
+          The following details represent verified administrative channels for Advocate Vipin Kumar.
           Consultations in chamber are strictly conducted by prior appointment during non-court hours.
         </p>
       </div>

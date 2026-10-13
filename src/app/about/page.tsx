@@ -9,7 +9,7 @@ import { Scale, GraduationCap, Building, MapPin, Mail, ShieldAlert, ArrowRight }
 export const metadata = {
   title: "Advocate Profile & Qualifications",
   description:
-    "Factual professional profile, Bar Council enrolment verification, and academic credentials of Advocate Sachin, practising in Gurugram and Delhi NCR.",
+    "Factual professional profile, Bar Council enrolment verification, and academic credentials of Advocate Vipin Kumar, practising before District Court Gurugram and Sub-Divisional Court Sohna.",
 };
 
 export default async function AboutPage() {
@@ -32,7 +32,7 @@ export default async function AboutPage() {
         <p className="text-sm text-text-secondary max-w-3xl leading-relaxed">
           In strict accordance with the Advocates Act, 1961, and Rule 36 of the Bar Council of India Rules,
           the following factual records represent the verified academic qualifications, professional enrolments,
-          and permitted associations of Advocate Sachin.
+          and permitted associations of Advocate Vipin Kumar.
         </p>
       </div>
 
@@ -44,7 +44,7 @@ export default async function AboutPage() {
             <div className="relative rounded overflow-hidden border border-border-subtle bg-navy">
               <Image
                 src="/images/placeholder-portrait.svg"
-                alt="Portrait placeholder of Advocate Sachin"
+                alt="Portrait placeholder of Advocate Vipin Kumar"
                 width={400}
                 height={500}
                 className="w-full h-auto object-cover"
@@ -57,7 +57,7 @@ export default async function AboutPage() {
                 <VerifiedBadge isVerified={profile.isFullNameVerified} />
               </div>
               <p className="text-xs text-text-secondary">{profile.designation}</p>
-              <p className="text-xs text-text-muted">Primary Jurisdiction: Gurugram, Haryana &bull; Delhi NCR</p>
+              <p className="text-xs text-text-muted">Primary Jurisdiction: District Court Gurugram &bull; Sub-Divisional Court Sohna</p>
             </div>
           </div>
 

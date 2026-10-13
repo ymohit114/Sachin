@@ -81,7 +81,7 @@ async function main() {
       summary: "A procedural evaluation of Section 12A commercial mediation requirements.",
       content: "## Background\n\nDetailed procedural analysis spanning minimum required characters for full article...",
       status: "published",
-      author: "Advocate Sachin",
+      author: "Advocate Vipin Kumar",
     });
     assert.strictEqual(valid.success, true);
   });
@@ -150,8 +150,8 @@ async function main() {
   });
 
   runTest("WhatsApp URL formatter strips punctuation and creates safe link", () => {
-    const url = formatWhatsAppUrl("+91 98-100 23456", "Hello Advocate Sachin");
-    assert.strictEqual(url, "https://wa.me/919810023456?text=Hello%20Advocate%20Sachin");
+    const url = formatWhatsAppUrl("+91 79-888 43259", "Hello Advocate Vipin Kumar");
+    assert.strictEqual(url, "https://wa.me/917988843259?text=Hello%20Advocate%20Vipin%20Kumar");
   });
 
   // 5. Data Isolation & Draft Leakage Tests
@@ -200,6 +200,7 @@ async function main() {
   if (failed > 0) {
     process.exit(1);
   }
+  process.exit(0);
 }
 
 main().catch((err) => {

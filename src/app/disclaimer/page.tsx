@@ -6,7 +6,7 @@ import { BCI_DISCLAIMER_TEXT } from "@/lib/constants/site-defaults";
 export const metadata = {
   title: "Professional & Legal Disclaimer",
   description:
-    "Statutory disclaimer under Rule 36 of the Bar Council of India Rules and Advocates Act, 1961 for Advocate Sachin.",
+    "Statutory disclaimer under Rule 36 of the Bar Council of India Rules and Advocates Act, 1961 for Advocate Vipin Kumar.",
 };
 
 export default function DisclaimerPage() {
@@ -51,7 +51,7 @@ export default function DisclaimerPage() {
           </h2>
           <p>
             Neither the receipt of information contained on this website nor any electronic communication transmitted
-            through the optional consultation form shall create an advocate-client relationship between Advocate Sachin
+            through the optional consultation form shall create an advocate-client relationship between Advocate Vipin Kumar
             and the user. An advocate-client relationship is formally established exclusively upon mutual written agreement,
             execution of a formal Vakalatnama, and explicit acceptance of professional engagement.
           </p>
