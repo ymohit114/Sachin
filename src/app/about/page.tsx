@@ -43,11 +43,12 @@ export default async function AboutPage() {
           <div className="rounded-lg border border-border-subtle bg-white p-4 shadow-subtle space-y-4">
             <div className="relative rounded overflow-hidden border border-border-subtle bg-navy">
               <Image
-                src="/images/placeholder-portrait.svg"
-                alt="Portrait placeholder of Advocate Vipin Kumar"
-                width={400}
-                height={500}
+                src="/images/vipin-kumar.jpg"
+                alt="Formal portrait of Advocate Vipin Kumar"
+                width={768}
+                height={1024}
                 className="w-full h-auto object-cover"
+                priority
               />
             </div>
 

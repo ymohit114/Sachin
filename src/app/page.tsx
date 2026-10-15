@@ -71,14 +71,14 @@ export default async function HomePage() {
               </div>
             </div>
 
-            {/* Right Column: Restrained Advocate Portrait Placeholder */}
+            {/* Right Column: Advocate Portrait */}
             <div className="lg:col-span-5 flex justify-center">
               <div className="relative w-full max-w-sm rounded-lg overflow-hidden border-2 border-border-dark bg-navy-900 shadow-2xl">
                 <Image
-                  src="/images/placeholder-portrait.svg"
-                  alt="Formal portrait placeholder of Advocate Vipin Kumar"
-                  width={400}
-                  height={500}
+                  src="/images/vipin-kumar.jpg"
+                  alt="Formal portrait of Advocate Vipin Kumar"
+                  width={768}
+                  height={1024}
                   className="w-full h-auto object-cover"
                   priority
                 />
