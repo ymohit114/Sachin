@@ -15,7 +15,7 @@ export function Header() {
           {/* Identity */}
           <Link href="/" className="group flex flex-col focus:outline-none focus:ring-2 focus:ring-gold rounded p-1">
             <span className="font-serif text-xl sm:text-2xl font-bold tracking-wide text-ivory group-hover:text-gold transition-colors">
-              VIPIN KUMAR
+              VIPIN KHATANA
             </span>
             <span className="text-[10px] sm:text-[11px] uppercase tracking-widest text-gold font-medium">
               Advocate &bull; Distt Court Gurugram &amp; Sub-Divisional Court Sohna

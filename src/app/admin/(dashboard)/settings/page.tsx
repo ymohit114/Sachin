@@ -229,7 +229,7 @@ export default function AdminSettingsPage() {
                         featureFlags: { ...f, whatsAppPrefilledText: e.target.value },
                       })
                     }
-                    placeholder="Hello Advocate Vipin Kumar, I am enquiring about your chamber schedule."
+                    placeholder="Hello Advocate Vipin Khatana, I am enquiring about your chamber schedule."
                   />
                 </div>
               )}

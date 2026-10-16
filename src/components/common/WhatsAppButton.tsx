@@ -15,7 +15,7 @@ export function WhatsAppButton({ isEnabled, phoneNumber, prefilledText }: WhatsA
 
   const defaultPrefill =
     prefilledText ||
-    "Hello Advocate Vipin Kumar, I am reaching out to enquire about your chamber schedule in Gurugram / Sohna.";
+    "Hello Advocate Vipin Khatana, I am reaching out to enquire about your chamber schedule in Gurugram / Sohna.";
   const url = formatWhatsAppUrl(phoneNumber, defaultPrefill);
 
   return (

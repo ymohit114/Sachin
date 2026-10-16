@@ -13,7 +13,7 @@ export function Footer() {
           <div className="md:col-span-2 space-y-4">
             <div className="flex flex-col">
               <span className="font-serif text-xl font-bold tracking-wide text-ivory">
-                CHAMBER OF ADVOCATE VIPIN KUMAR
+                CHAMBER OF ADVOCATE VIPIN KHATANA
               </span>
               <span className="text-xs uppercase tracking-widest text-gold font-medium mt-1">
                 District Court Gurugram &bull; Sub-Divisional Court Sohna
@@ -98,7 +98,7 @@ export function Footer() {
 
         {/* Copyright & Technical attribution */}
         <div className="pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-text-muted gap-4">
-          <p>&copy; {currentYear} Advocate Vipin Kumar. All rights reserved. For informational purposes only.</p>
+          <p>&copy; {currentYear} Advocate Vipin Khatana. All rights reserved. For informational purposes only.</p>
           <p className="text-[11px]">Strict compliance with Advocates Act, 1961.</p>
         </div>
       </div>

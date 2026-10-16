@@ -1,22 +1,22 @@
 import { AdvocateProfile, PracticeArea, LegalArticle, SiteSettings } from "@/types";
 
 export const DEFAULT_ADVOCATE_PROFILE: AdvocateProfile = {
-  fullName: "Vipin Kumar",
+  fullName: "Vipin Khatana",
   isFullNameVerified: true,
   designation: "Advocate",
   isDesignationVerified: true,
-  enrolmentNumber: "[Pending Enrolment Certificate Upload]",
-  isEnrolmentVerified: false,
-  enrolmentDate: "[Awaiting Date Verification]",
-  stateBarCouncil: "Bar Council of Punjab & Haryana [Chandigarh]",
+  enrolmentNumber: "P/3245/2016",
+  isEnrolmentVerified: true,
+  enrolmentDate: "2016",
+  stateBarCouncil: "Bar Council of Punjab & Haryana",
   isBarCouncilVerified: true,
   barAssociations: [
     {
-      name: "Gurugram District Court Bar Association",
+      name: "Sohna Sub-Divisional Court Bar Association",
       isVerified: true,
     },
     {
-      name: "Sohna Sub-Divisional Court Bar Association",
+      name: "Gurugram District Court Bar Association",
       isVerified: true,
     },
     {
@@ -160,6 +160,26 @@ export const DEFAULT_PRACTICE_AREAS: PracticeArea[] = [
     ],
     isVerified: false,
   },
+  {
+    slug: "land-revenue-property-disputes",
+    title: "Land Revenue, Partition & Agricultural Property",
+    category: "Revenue & Land Law",
+    description:
+      "Representation in agricultural land disputes, partition suits (Taqseem), mutation (Inteqal) appeals, and title declarations before Revenue Courts and Sub-Divisional Courts in Sohna and Gurugram.",
+    proceduralOverview: [
+      "Agricultural partition proceedings under Section 111 of the Punjab Land Revenue Act, 1887",
+      "Sanction and disputed mutation (Inteqal) appeals before Tehsildar and Collector Sohna",
+      "Demarcation applications (Nishandehi) and boundary disputes",
+      "Declaratory suits and permanent injunctions restraining illegal dispossession",
+    ],
+    statutoryFramework: [
+      "Punjab Land Revenue Act, 1887 (as applicable to Haryana)",
+      "Haryana Land Revenue Manual",
+      "Specific Relief Act, 1963",
+      "Code of Civil Procedure, 1908",
+    ],
+    isVerified: true,
+  },
 ];
 
 export const INITIAL_LEGAL_ARTICLES: LegalArticle[] = [
@@ -194,7 +214,7 @@ In *Patil Automation Private Limited v. Rakheja Engineers Private Limited* (2022
 
 *Disclaimer: This article is intended solely for educational and informational purposes and does not constitute formal legal advice. Readers should seek independent counsel for specific matters.*`,
     status: "published",
-    author: "Advocate Vipin Kumar",
+    author: "Advocate Vipin Khatana",
     categories: ["Commercial Law", "Civil Procedure"],
     tags: ["Section 12A", "Commercial Courts", "Mediation"],
     seoTitle: "Pre-Institution Mediation under Section 12A Commercial Courts Act",
@@ -232,7 +252,7 @@ A common challenge faced by decree-holders is the execution of recovery orders. 
 
 *Disclaimer: This note provides a factual summary of statutory provisions and does not constitute legal counsel or an endorsement of any particular outcome.*`,
     status: "published",
-    author: "Advocate Vipin Kumar",
+    author: "Advocate Vipin Khatana",
     categories: ["Real Estate Law", "HARERA"],
     tags: ["HARERA", "Gurugram", "Real Estate", "Section 18"],
     seoTitle: "Remedies under HARERA Gurugram for Delay in Possession",
@@ -264,7 +284,7 @@ The transition to Bharatiya Nagarik Suraksha Sanhita, 2023 introduces updated nu
 
 This analysis is undergoing advocate verification.`,
     status: "draft",
-    author: "Advocate Vipin Kumar",
+    author: "Advocate Vipin Khatana",
     categories: ["Criminal Law", "BNSS"],
     tags: ["BNSS", "CrPC", "Bail"],
     seoTitle: "BNSS vs CrPC Bail Provisions Analysis",
@@ -281,7 +301,7 @@ export const DEFAULT_SITE_SETTINGS: SiteSettings = {
     enablePublicEnquiries: true,
     enableWhatsAppChat: true,
     whatsAppPhoneNumber: "917988843259",
-    whatsAppPrefilledText: "Hello Advocate Vipin Kumar, I am reaching out to enquire about your chamber schedule in Gurugram / Sohna.",
+    whatsAppPrefilledText: "Hello Advocate Vipin Khatana, I am reaching out to enquire about your chamber schedule in Gurugram / Sohna.",
   },
   disclaimerVersion: "2026-v1",
   privacyPolicyVersion: "2026-v1",
@@ -294,7 +314,7 @@ export const BCI_DISCLAIMER_TEXT = {
   full: [
     "Under the rules of the Bar Council of India (specifically Rule 36 of the Bar Council of India Rules framed under Section 49(1)(c) of the Advocates Act, 1961), an advocate is prohibited from soliciting work or advertising in any manner.",
     "By accessing this website (the 'Platform'), the user acknowledges that the information provided herein is solely for informational and educational purposes, provided at the user's independent request.",
-    "None of the information contained on this website constitutes legal advice, solicitation, advertisement, personal communication, invitation, or inducement of any sort whatsoever by Advocate Vipin Kumar or associated chamber members.",
+    "None of the information contained on this website constitutes legal advice, solicitation, advertisement, personal communication, invitation, or inducement of any sort whatsoever by Advocate Vipin Khatana or associated chamber members.",
     "The transmission, receipt, or viewing of this website does not constitute or create an advocate-client relationship. Visitors are advised not to act upon any information without seeking formal, independent legal counsel from a qualified advocate licensed in the relevant jurisdiction.",
     "The advocate disclaims all liability for any action taken or not taken based on any or all contents of this website.",
   ],

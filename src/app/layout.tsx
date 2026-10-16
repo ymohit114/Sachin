@@ -21,11 +21,11 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Advocate Vipin Kumar — Gurugram & Sohna",
-    default: "Advocate Vipin Kumar | District Court Gurugram & Sub-Divisional Court Sohna",
+    template: "%s | Advocate Vipin Khatana — Gurugram & Sohna",
+    default: "Advocate Vipin Khatana | District Court Gurugram & Sub-Divisional Court Sohna",
   },
   description:
-    "Factual professional profile and legal practice information for Advocate Vipin Kumar, independent practitioner before District Court Gurugram and Sub-Divisional Court Sohna, Haryana. Conforming to Bar Council of India guidelines.",
+    "Factual professional profile and legal practice information for Advocate Vipin Khatana, independent practitioner before District Court Gurugram and Sub-Divisional Court Sohna, Haryana (Enrolment: P/3245/2016). Conforming to Bar Council of India guidelines.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "https://sachin-lemon-two.vercel.app"),
   robots: {
     index: true,

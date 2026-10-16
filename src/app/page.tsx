@@ -30,7 +30,7 @@ export default async function HomePage() {
               </div>
 
               <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-ivory leading-tight">
-                Chamber of Advocate Vipin Kumar
+                Chamber of Advocate Vipin Khatana
               </h1>
 
               <p className="text-base sm:text-lg text-ivory/80 leading-relaxed font-normal max-w-2xl">
@@ -76,7 +76,7 @@ export default async function HomePage() {
               <div className="relative w-full max-w-sm rounded-lg overflow-hidden border-2 border-border-dark bg-navy-900 shadow-2xl">
                 <Image
                   src="/images/vipin-kumar.jpg"
-                  alt="Formal portrait of Advocate Vipin Kumar"
+                  alt="Formal portrait of Advocate Vipin Khatana"
                   width={768}
                   height={1024}
                   className="w-full h-auto object-cover"
@@ -179,7 +179,7 @@ export default async function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {DEFAULT_PRACTICE_AREAS.slice(0, 3).map((area) => (
+            {DEFAULT_PRACTICE_AREAS.map((area) => (
               <Card key={area.slug} variant="default" className="flex flex-col justify-between space-y-4 hover:border-navy transition-colors">
                 <div className="space-y-3">
                   <span className="text-[11px] font-semibold text-gold-dark uppercase tracking-wider">
@@ -205,6 +205,123 @@ export default async function HomePage() {
               </Card>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Forum-Specific Practice Matters (Sohna & Gurugram Real Matters) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="border-b border-border-subtle pb-4 mb-8">
+          <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-gold-dark font-semibold">
+            <Building className="w-4 h-4 text-gold-dark" />
+            <span>Regular Court Practice &amp; Forums</span>
+          </div>
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-navy mt-1">
+            Judicial Forums &amp; Representative Matters
+          </h2>
+          <p className="text-sm text-text-secondary mt-1">
+            Factual breakdown of statutory forums and litigation categories handled by Advocate Vipin Khatana across Sohna and Gurugram courts.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Card 1: Sub-Divisional Courts, Sohna */}
+          <Card variant="ivory" className="space-y-4">
+            <div className="border-b border-border-subtle pb-3">
+              <span className="text-[11px] font-semibold text-gold-dark uppercase tracking-wider block">
+                Chamber No. 22 Ground Floor
+              </span>
+              <h3 className="font-serif text-lg font-bold text-navy mt-0.5">
+                Sub-Divisional Courts, Sohna
+              </h3>
+              <p className="text-xs text-text-muted mt-1">
+                Civil &amp; Criminal Courts, Tehsil Sohna
+              </p>
+            </div>
+            <ul className="space-y-2 text-xs text-text-secondary">
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Agricultural land partition suits (Taqseem) under Punjab Land Revenue Act</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Sanctioned and disputed mutation (Inteqal) appeals before Revenue Officers</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Title declaration, boundary demarcation (Nishandehi), and injunction suits</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Magisterial criminal trials and regular bail applications</span>
+              </li>
+            </ul>
+          </Card>
+
+          {/* Card 2: District & Sessions Courts, Gurugram */}
+          <Card variant="ivory" className="space-y-4">
+            <div className="border-b border-border-subtle pb-3">
+              <span className="text-[11px] font-semibold text-gold-dark uppercase tracking-wider block">
+                Seat in Hall No. 8
+              </span>
+              <h3 className="font-serif text-lg font-bold text-navy mt-0.5">
+                District Courts, Gurugram
+              </h3>
+              <p className="text-xs text-text-muted mt-1">
+                Sessions Court, Commercial Court &amp; Civil Courts
+              </p>
+            </div>
+            <ul className="space-y-2 text-xs text-text-secondary">
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Anticipatory bail (Sec 482 BNSS / 438 CrPC) and Sessions bail petitions</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Commercial suits and Section 138 Negotiable Instruments Act complaints</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Motor Accident Claims Tribunal (MACT) compensation petitions</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Execution petitions under Order XXI CPC and civil first appeals</span>
+              </li>
+            </ul>
+          </Card>
+
+          {/* Card 3: Regulatory & Revenue Tribunals */}
+          <Card variant="ivory" className="space-y-4">
+            <div className="border-b border-border-subtle pb-3">
+              <span className="text-[11px] font-semibold text-gold-dark uppercase tracking-wider block">
+                Designated Tribunals
+              </span>
+              <h3 className="font-serif text-lg font-bold text-navy mt-0.5">
+                HARERA &amp; Revenue Forums
+              </h3>
+              <p className="text-xs text-text-muted mt-1">
+                Haryana RERA &amp; SDM / Collector Courts
+              </p>
+            </div>
+            <ul className="space-y-2 text-xs text-text-secondary">
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>HARERA Gurugram complaints for delayed possession and statutory interest</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Section 40 RERA recovery certificate execution before District Collector</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Revenue appeals before Sub-Divisional Magistrate (SDM) Sohna</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-gold-dark mt-1.5 flex-shrink-0" />
+                <span>Revision petitions before Divisional Commissioner &amp; Financial Commissioner</span>
+              </li>
+            </ul>
+          </Card>
         </div>
       </section>
 

@@ -7,7 +7,7 @@ import { ArrowRight, BookOpen, Scale, FileText } from "lucide-react";
 export const metadata = {
   title: "Areas of Legal Practice",
   description:
-    "Factual overview of legal practice areas handled by Advocate Vipin Kumar before District Court Gurugram and Sub-Divisional Court Sohna.",
+    "Factual overview of legal practice areas handled by Advocate Vipin Khatana before District Court Gurugram and Sub-Divisional Court Sohna.",
 };
 
 export default function PracticeAreasPage() {

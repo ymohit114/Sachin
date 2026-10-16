@@ -9,7 +9,7 @@ import { Scale, GraduationCap, Building, MapPin, Mail, ShieldAlert, ArrowRight }
 export const metadata = {
   title: "Advocate Profile & Qualifications",
   description:
-    "Factual professional profile, Bar Council enrolment verification, and academic credentials of Advocate Vipin Kumar, practising before District Court Gurugram and Sub-Divisional Court Sohna.",
+    "Factual professional profile, Bar Council enrolment verification (P/3245/2016), and academic credentials of Advocate Vipin Khatana, practising before District Court Gurugram and Sub-Divisional Court Sohna.",
 };
 
 export default async function AboutPage() {
@@ -31,8 +31,8 @@ export default async function AboutPage() {
         </h1>
         <p className="text-sm text-text-secondary max-w-3xl leading-relaxed">
           In strict accordance with the Advocates Act, 1961, and Rule 36 of the Bar Council of India Rules,
-          the following factual records represent the verified academic qualifications, professional enrolments,
-          and permitted associations of Advocate Vipin Kumar.
+          the following factual records represent the verified academic qualifications, professional enrolments (Enrolment No. P/3245/2016),
+          and permitted associations of Advocate Vipin Khatana.
         </p>
       </div>
 
@@ -44,7 +44,7 @@ export default async function AboutPage() {
             <div className="relative rounded overflow-hidden border border-border-subtle bg-navy">
               <Image
                 src="/images/vipin-kumar.jpg"
-                alt="Formal portrait of Advocate Vipin Kumar"
+                alt="Formal portrait of Advocate Vipin Khatana"
                 width={768}
                 height={1024}
                 className="w-full h-auto object-cover"
